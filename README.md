@@ -8,8 +8,8 @@ Inside games.sln project file, in Visual Studio 2013, go to "Find All Files" Sea
 
 Contact me here: http://steamcommunity.com/id/Ethorbit
 
-### This repository was originally made 3 years ago but has been republished.
-Updates are being worked on as of 2019 now.
+### This repository was originally made in 2016 but has been republished.
+Updates are being worked on as of 2019.
 
 ## Enjoy my hard work?
 Donate: https://www.paypal.me/Ethorbit
