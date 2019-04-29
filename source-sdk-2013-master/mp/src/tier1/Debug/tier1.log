@@ -1,0 +1,21 @@
+﻿Build started 4/28/2019 5:06:08 AM.
+     1>Project "Z:\HL2DM-ZombiesatPhoneburnia-SDK-Latest-master\source-sdk-2013-master\mp\src\tier1\tier1.vcxproj" on node 3 (Build target(s)).
+     1>PreBuildEvent:
+         if EXIST ..\lib\public\.\tier1.lib ( for /f "delims=" %%A in ('attrib "..\lib\public\.\tier1.lib"') do set valveTmpIsReadOnly="%%A"
+         ) else ( if not EXIST ..\lib\public\. mkdir ..\lib\public\. )
+         set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
+         if "%valveTmpIsReadOnlyLetter%"=="R" (
+             attrib -r ..\lib\public\.\tier1.lib
+             ..\devtools\bin\gnu\touch.exe -d "1999-01-01" ..\lib\public\.\tier1.lib
+             attrib +r ..\lib\public\.\tier1.lib
+         )
+         if exist "..\devtools\bin\vpc.exe" "..\devtools\bin\vpc.exe" -crc2 "tier1.vcxproj"
+         if ERRORLEVEL 1 exit /b 1
+         
+         :VCEnd
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1000,5): error MSB3191: Unable to create directory "F:\Steam\steamapps\common\source-sdk-2013-master\mp\src\tier1\". Could not find a part of the path 'F:\Steam\steamapps\common\source-sdk-2013-master\mp\src\tier1\'.
+     1>Done Building Project "Z:\HL2DM-ZombiesatPhoneburnia-SDK-Latest-master\source-sdk-2013-master\mp\src\tier1\tier1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.71

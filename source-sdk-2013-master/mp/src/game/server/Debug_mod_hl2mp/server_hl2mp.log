@@ -1,0 +1,16 @@
+﻿Build started 4/28/2019 5:06:09 AM.
+     1>Project "Z:\HL2DM-ZombiesatPhoneburnia-SDK-Latest-master\source-sdk-2013-master\mp\src\game\server\server_hl2mp.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         if EXIST ..\..\..\game\mod_hl2mp\bin\.\server.dll for /f "delims=" %%A in ('attrib "..\..\..\game\mod_hl2mp\bin\.\server.dll"') do set valveTmpIsReadOnly="%%A"
+         set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
+         if "%valveTmpIsReadOnlyLetter%"=="R" del /q "Z:\HL2DM-ZombiesatPhoneburnia-SDK-Latest-master\source-sdk-2013-master\mp\src\game\server\Debug_mod_hl2mp\"server.dll
+         if exist "..\..\devtools\bin\vpc.exe" "..\..\devtools\bin\vpc.exe" -crc2 "server_hl2mp.vcxproj"
+         if ERRORLEVEL 1 exit /b 1
+         
+         :VCEnd
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1000,5): error MSB3191: Unable to create directory "F:\Steam\steamapps\common\source-sdk-2013-master\mp\src\game\server\". Could not find a part of the path 'F:\Steam\steamapps\common\source-sdk-2013-master\mp\src\game\server\'.
+     1>Done Building Project "Z:\HL2DM-ZombiesatPhoneburnia-SDK-Latest-master\source-sdk-2013-master\mp\src\game\server\server_hl2mp.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.08

@@ -1,0 +1,21 @@
+﻿Build started 4/28/2019 5:06:07 AM.
+     1>Project "Z:\HL2DM-ZombiesatPhoneburnia-SDK-Latest-master\source-sdk-2013-master\mp\src\mathlib\mathlib.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         if EXIST ..\lib\public\.\mathlib.lib ( for /f "delims=" %%A in ('attrib "..\lib\public\.\mathlib.lib"') do set valveTmpIsReadOnly="%%A"
+         ) else ( if not EXIST ..\lib\public\. mkdir ..\lib\public\. )
+         set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
+         if "%valveTmpIsReadOnlyLetter%"=="R" (
+             attrib -r ..\lib\public\.\mathlib.lib
+             ..\devtools\bin\gnu\touch.exe -d "1999-01-01" ..\lib\public\.\mathlib.lib
+             attrib +r ..\lib\public\.\mathlib.lib
+         )
+         if exist "..\devtools\bin\vpc.exe" "..\devtools\bin\vpc.exe" -crc2 "mathlib.vcxproj"
+         if ERRORLEVEL 1 exit /b 1
+         
+         :VCEnd
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1000,5): error MSB3191: Unable to create directory "F:\Steam\steamapps\common\source-sdk-2013-master\mp\src\mathlib\". Could not find a part of the path 'F:\Steam\steamapps\common\source-sdk-2013-master\mp\src\mathlib\'.
+     1>Done Building Project "Z:\HL2DM-ZombiesatPhoneburnia-SDK-Latest-master\source-sdk-2013-master\mp\src\mathlib\mathlib.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.75
