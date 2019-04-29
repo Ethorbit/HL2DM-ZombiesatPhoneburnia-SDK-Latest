@@ -1,3 +1,6 @@
+### This repository was originally made 3 years ago but has been republished.
+Updates are being worked on as of 2019 now.
+
 ## If you're using Linux, download the server.so, replace server.so in the bin folder:
 https://www.dropbox.com/s/fkpdqsrpz1ctn4f/server.so?dl=0
 
@@ -11,5 +14,4 @@ Contact me here: http://steamcommunity.com/id/Ethorbit
 ## Enjoy my hard work?
 Donate: https://www.paypal.me/Ethorbit
 
-### This repository was originally made 3 years ago but has been republished.
-Updates are being worked on as of 2019 now.
+
