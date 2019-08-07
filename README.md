@@ -6,12 +6,4 @@ https://www.dropbox.com/s/fkpdqsrpz1ctn4f/server.so?dl=0
 Locate to directory source-sdk-2013-master/mp/src/games.sln
 Inside games.sln project file, in Visual Studio 2013, go to "Find All Files" Search for Ethorbit, this will show all or at least 90% of the code I've added into the mod, so you can easily fix bugs, see my work, or add more code.
 
-Contact me here: http://steamcommunity.com/id/Ethorbit
-
-### This repository was originally made in 2016 but has been republished.
-Updates are being worked on as of 2019.
-
-## Enjoy my hard work?
-Donate: https://www.paypal.me/Ethorbit
-
 
